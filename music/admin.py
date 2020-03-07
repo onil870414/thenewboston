@@ -1,4 +1,5 @@
 from django.contrib import admin
-from models import Album
+from music.models import Album
 
-# admin.
+
+admin.site.register(Album)
